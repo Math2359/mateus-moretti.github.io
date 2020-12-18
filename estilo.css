@@ -1,0 +1,153 @@
+/*FORMATAÇÕES GERAIS*/
+html{
+	scroll-behavior: smooth;
+}
+
+p{
+	font-family: 'Trispace', sans-serif;
+}
+
+h4{
+	font-family: 'Trispace', sans-serif;
+}
+
+.titulo{
+	align-items: center;
+	text-align: center;
+	color: #474747;
+}
+.titulo h4:hover{
+	color: #000;
+	align-items: center;
+	text-align: center;
+}
+
+.conteudo{
+	text-align: justify;
+}
+
+.grow:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+/*SOBRE*/
+
+.sobre{
+	background-color: #F2C6AC;
+}
+
+/*HABILIDADES*/
+
+.hab{
+	background-image: url(../img/donut.png);
+	background-size: cover;
+	position: relative;
+	padding: 80px 0
+}
+
+.hab:before {
+  	content: "";
+  	background: rgba(0, 0, 0, 0.53);
+  	position: absolute;
+  	bottom: 0;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+}
+
+.hab-text{
+	align-items: center;
+	text-align: center;
+	color: #D1D1D1;
+}
+
+.hab-tit{
+	text-align: center;
+	color: #D1D1D1;
+}
+
+.liv{
+	width: 20%;
+}
+
+@media (min-width: 1024px) {
+    .hab {
+      background-attachment: fixed;
+  }
+}
+
+.bri{
+	filter: brightness(70%);
+}
+.bri:hover{
+	filter: brightness(100%);
+}
+
+/*PROJETOS*/
+
+.pro{
+	background-color: #F2C6AC;
+}
+
+.pro-tit{
+	text-align: center;
+}
+
+/*COMPETÊNCIAS SOCIOEMOCIONAIS*/
+
+.comp{
+	background-image: url(../img/donut.png);
+	background-size: cover;
+	position: relative;
+	padding: 80px 0;
+}
+
+.comp:before {
+  	content: "";
+  	background: rgba(0, 0, 0, 0.53);
+  	position: absolute;
+  	bottom: 0;
+  	top: 0;
+  	left: 0;
+  	right: 0;
+}
+.tam{
+	width: 70%;
+}
+
+.comp-text{
+	text-align: justify;
+	color: #D1D1D1;
+}
+
+.comp-item{
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.comp-item:hover{
+	background: rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 1024px) {
+    .comp {
+      background-attachment: fixed;
+  }
+}
+
+/*CONTATOS*/
+
+.cont{
+	background-color: #F2C6AC;
+}
+
+.cont a{
+	text-decoration: none;
+	color: #474747;
+}
+
+.cont a:hover{
+	text-decoration: none;
+	color: #000;
+}
